@@ -1,0 +1,130 @@
+/* Estilos sencillos para todas las páginas del proyecto */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* Encabezado */
+header {
+  background-color: #83460d;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+header a {
+  color: #cfe3f7;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+#etiquetas {
+  font-size: 14px;
+  color: #cfe3f7;
+}
+
+/* Contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #5e370b;
+  margin-top: 0;
+  border-bottom: 2px solid #7c4110;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: 2px solid #470957;
+}
+
+button {
+  background-color: #b47a0d;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7c4d0f;
+}
+
+/* Resultados */
+#resultado strong {
+  color: #df7818;
+}
+
+#mensaje {
+  font-style: italic;
+}
+
+/* Enlaces generales (por ejemplo, el menú del index) */
+a {
+  color: #a35f11;
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+}
